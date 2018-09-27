@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<link rel="stylesheet" href="{% static '/tm/css/index.css' %}">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{% block pagetitle%}TM{% endblock%}</title>
+        
+    </head>
+
+<header>
+    <div class="ancho">
+        <img src="{% static 'tm/img/TM-LOGO.jpg'%} " alt="Logo">
+        <p>Bienvenido a ticket Manager</p>
+</header>
+<body>
+     </div>
+     <nav class="naveg"> 
+        <ul class="menu">
+            <li>><a href="{% url 'base' %}">Home</a></li>
+            <li>><a href="{% url 'about' %}">about me</a></li>
+            <li>><a href="{% url 'contact' %}">contact me</a></li>
+            <li>><a href="#">Ticket</a></li>
+        </ul> 
+    </nav>
+
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    
+    <p>Todos los derechos reservados 2012, Mi sitio web. Diseñado por: Majo.</p>
+</footer>
+</html>

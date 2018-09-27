@@ -1,0 +1,48 @@
+body{
+    background:black;
+}
+header{
+    
+    margin-top: 10px;
+    background-color:white;
+    margin-left: 8PX;
+    padding: 1px;
+    margin-top: 41PX;
+    padding-left: 15px;
+    color:gray;
+    width: 97%;
+}
+
+img{
+    max-width: 40%;
+	height: 90px;
+    background: aqua
+}
+.naveg {
+    width: 90px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a{
+    display: block;
+    background-color: #cccccc;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+
+.menu a:hover {
+    background-color: #c5c5c5
+}
+.menu li:hover .submenu {
+    display: block;
+    max-height: 200px;
+}
+footer{
+    color: aliceblue;
+}

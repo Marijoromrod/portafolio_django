@@ -1,0 +1,14 @@
+{% extends 'core/base.html' %}
+{% block pagetitle%} <title>Person</title>{% endblock%}
+
+{% block title%} This is my portfolio - Maria Jose {% endblock%}
+{% block content %}
+{% for person in people %}
+    <h2>{{person.title}} </h2>
+    <p>
+        {{person.description}}
+    </p>
+    <a href="{{person.link}}">{{person.link}}</a>
+    <img src="{{person.image.url}}" alt="logo">
+{% endfor%}
+{% endblock%}
